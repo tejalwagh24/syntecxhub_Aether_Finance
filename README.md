@@ -1,122 +1,16 @@
-# 💰✨ AETHER FINANCE — SMART EXPENSE TRACKER
-### 🚀 A Modern AI-Inspired Financial Dashboard for Smarter Money Management
+# React + Vite
 
----
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-Frontend-blue?style=for-the-badge&logo=react" />
-  <img src="https://img.shields.io/badge/Vite-Fast%20Build-purple?style=for-the-badge&logo=vite" />
-  <img src="https://img.shields.io/badge/Finance-App-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/UI-Glassmorphism-black?style=for-the-badge" />
-</p>
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🌐 LIVE DEMO
-👉 **https://Aether-expensetracker-tej.netlify.app**
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🎯 OVERVIEW
+## Expanding the ESLint configuration
 
-**AETHER Finance** is a modern, responsive expense tracking web application designed with a futuristic UI and smart financial insights.
-
-It helps users:
-- Track daily expenses 💸  
-- Categorize spending 📊  
-- Analyze financial behavior 🧠  
-- Export reports 📄  
-- Gain AI-like insights 🤖  
-
----
-
-## ✨ FEATURES
-
-### 💸 Smart Expense Management
-- Add / Delete expenses instantly
-- Category-based tracking (Food, Travel, Bills, Shopping)
-- Real-time updates
-
-### 📊 Advanced Analytics Dashboard
-- Total spending calculation
-- Category-wise breakdown
-- Monthly summary insights
-
-### 📄 PDF Export System
-- Download full financial report
-- Clean structured layout
-- Professional summary output
-
-### 🎨 Modern UI/UX
-- Glassmorphism design
-- Neon cyber aesthetic
-- Smooth hover interactions
-- Sidebar navigation system
-
-### 🧠 AI-Style Insights
-- Spending pattern detection
-- Smart suggestions
-- Budget awareness tips
-
----
-
-## 🧠 TECH STACK
-
-| Tech | Purpose |
-|------|--------|
-| ⚛️ React.js | Frontend framework |
-| ⚡ Vite | Fast development build tool |
-| 🎨 CSS3 | UI styling (glassmorphism) |
-| 📊 Recharts | Data visualization |
-| 📄 jsPDF | PDF export feature |
-| 🧠 JavaScript | Application logic |
-
----
-
-## 🏗️ PROJECT ARCHITECTURE
-src/ ├── components/ │    ├── Sidebar.jsx │    ├── BackgroundFX.jsx │    ├── DashboardCards.jsx │    ├── ExpenseForm.jsx │    ├── Transactions.jsx │    ├── ExpenseChart.jsx │    ├── MonthlySummary.jsx │    ├── ExportPDF.jsx │    ├── AIInsights.jsx ├── App.jsx ├── index.css
----
-
-## 🚀 HOW TO RUN LOCALLY
-
-```bash
-git clone https://github.com/your-username/Syntecxhub_Aether_Finance.git
-cd Syntecxhub_Aether_Finance/react
-npm install
-npm run dev
-
-🎨 UI HIGHLIGHTS
-Glassmorphism Cards ✨
-Neon Accent Theme 💎
-Sidebar Navigation 📌
-Responsive Layout 📱
-Smooth Hover Effects ⚡
-
-📈 FUTURE ROADMAP
-🔐 Authentication system
-☁️ Cloud database integration
-🤖 AI expense prediction
-📱 Mobile app version
-💳 Budget automation system
-
-👨‍💻 AUTHOR
-Tejal Wagh
-🎓 B.Tech Artificial Intelligence & Data Science
-💡 Passionate about AI, Web Development & SaaS Products
-
-⭐ SUPPORT
-If you like this project:
-⭐ Star this repo
-🍴 Fork it
-📢 Share on LinkedIn
-
-🏁 GOAL OF THIS PROJECT
-This project demonstrates:
-✔ Real-world React development
-✔ Financial dashboard UI/UX design
-✔ Data-driven thinking
-✔ SaaS-level frontend engineering
-
-�
-🚀 Built with passion. Designed for impact. Engineered for growth. 
-```
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
